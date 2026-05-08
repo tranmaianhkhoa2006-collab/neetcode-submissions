@@ -1,7 +1,6 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        int[] solution = new int[k];
-        boolean[] solutionFlag = new boolean[k];
+        int[] solution = new int[k]
         HashMap<Integer,Integer> frequentHashMap = new HashMap<>();
         for(int i=0;i<nums.length;i++){
             frequentHashMap.put(nums[i],0);
